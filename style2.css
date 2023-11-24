@@ -1,34 +1,28 @@
-.atas{
-    height: 140px;
-    width: 100%;
-    background-color: greenyellow;
-    border-radius: 50px;
-    border: 2px dotted;
-    margin-bottom: 10px;
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header, footer{
+    background-color: bisque;
+    height: 20vh;
+}
+#main{
+    display: flex;
+}
+#main article{
+    flex: 1;
+}
+#main nav,
+#main aside{
+    height: 50vh;
+}
+#main nav{
+    background-color: aqua;
+    width: 14vw;
+    order: 1;
 }
 
-.kuning{
-    background-color: yellow;
-    height: 140px;
-    width: 140px;
-    margin-bottom: 10px;
-}
-.oren{
-    background-color: orange;
-    height: 140px;
-    width: 70%;
-    margin-bottom: 10px;
-}
-.biru{
-    background-color: aqua;
-    height: 140px;
-    width: 70%;
-}
-.container1{
-    display: flex;
-    justify-content: space-between;
-}
-.container2{
-    display: flex;
-    justify-content: space-between;
+#main aside{
+    background-color: pink;
+    width: 14vw;
 }
